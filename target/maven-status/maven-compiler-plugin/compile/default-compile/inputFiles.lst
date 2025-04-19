@@ -1,0 +1,13 @@
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\config\DataSourcesProperties.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\config\DB2Config.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\controller\IndividualController.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\dto\IndividualDto.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\handler\AzureIndividualHandler.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\handler\IndividualHandler.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\handler\OcuHandler.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\IndividualMigrationApplication.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\model\azure\Individual.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\model\OcuEntity.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\repository\azure\IndividualRepository.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\repository\OcuService.java
+C:\Users\dbusireddy\Dinesh\Projects\preg-migration-poc\src\main\java\com\example\preg\service\IndividualService.java

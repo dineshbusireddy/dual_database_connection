@@ -1,0 +1,6 @@
+com\example\preg\dto\IndividualDto.class
+com\example\preg\IndividualMigrationApplication.class
+com\example\preg\controller\IndividualController.class
+com\example\preg\handler\AzureIndividualHandler.class
+com\example\preg\service\IndividualService.class
+com\example\preg\model\OcuEntity.class

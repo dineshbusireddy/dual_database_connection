@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  datasource:
+    url: jdbc:h2:mem:azuredb;DB_CLOSE_DELAY=-1
+    username: sa
+    driver-class-name: org.h2.Driver
+    db2:
+      url: jdbc:hsqldb:mem:db2db
+      username: sa
+      driver-class-name: org.hsqldb.jdbc.JDBCDriver
+
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      format_sql: true
