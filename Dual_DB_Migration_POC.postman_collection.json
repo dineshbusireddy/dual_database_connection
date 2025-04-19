@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "2e23ce06-db70-455b-a4f3-f90f62fdfc92",
+		"name": "Hotel Migration POC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13966381"
+	},
+	"item": [
+		{
+			"name": "Get individual from Azure (Individual)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/individual/OCU2005",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"individual",
+						"OCU2005"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get individual from DB2-style (Ocu)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/hotels/H2002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hotels",
+						"H2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update individual(PUT)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"H1001\",\n  \"name\": \"Azure Grand Updated\",\n  \"location\": \"Seattle Downtown\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hotels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete individual",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/individual/OCU2005",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"individual",
+						"OCU2005"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
